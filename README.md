@@ -3,4 +3,8 @@ Repositório para os códigos das aulas do Prime Experts junho/2021 realizado pe
 
  - Como instalar o robot framework: pip install -U robotframework
 
- - Aprendendo a commitar com comandos
+ - Como subir uma alteração no GitHub:
+    1º faz uma modificação no arquivo la no visual code
+    2º git add .    (para adicionar as modificações)
+    3º git commit -m "Uma mensagem explicativa"     (para efetivar a alteração)
+    4º git push
