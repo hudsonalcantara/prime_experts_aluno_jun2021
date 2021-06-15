@@ -22,4 +22,3 @@ Logar no meu terminal uma LISTA DE FRUTAS
     Log To Console    ${\n}
     Log To Console    ${FRUTAS[4]}
     Log To Console    ${\n}
-   
