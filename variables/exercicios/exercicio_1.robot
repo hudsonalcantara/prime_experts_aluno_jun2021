@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Criando uma variável
+Documentation    Criando uma variável do tipo dicionário
 Library    Collections
 
 *** Variables ***
