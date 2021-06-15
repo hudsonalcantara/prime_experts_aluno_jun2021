@@ -12,13 +12,13 @@ Meu teste imprimindo uma lista de FRUTAS
 *** Keywords ***
 Logar no meu terminal uma LISTA DE FRUTAS
     Log To Console    ${\n}
-    Log To Console    ${FRUTAS[0]}
+    Log To Console    1] ${FRUTAS[0]}
     Log To Console    ${\n}
-    Log To Console    ${FRUTAS[1]}
+    Log To Console    2] ${FRUTAS[1]}
     Log To Console    ${\n}
-    Log To Console    ${FRUTAS[2]}
+    Log To Console    3] ${FRUTAS[2]}
     Log To Console    ${\n}
-    Log To Console    ${FRUTAS[3]}
+    Log To Console    4] ${FRUTAS[3]}
     Log To Console    ${\n}
-    Log To Console    ${FRUTAS[4]}
+    Log To Console    5] ${FRUTAS[4]}
     Log To Console    ${\n}
