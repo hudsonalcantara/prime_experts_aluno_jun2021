@@ -12,5 +12,14 @@ Meu teste imprimindo uma lista de FRUTAS
 *** Keywords ***
 Logar no meu terminal uma LISTA DE FRUTAS
     Log To Console    ${\n}
-    Log To Console    ${FRUTAS}
-    Log Many    ${FRUTAS}
+    Log To Console    ${FRUTAS[0]}
+    Log To Console    ${\n}
+    Log To Console    ${FRUTAS[1]}
+    Log To Console    ${\n}
+    Log To Console    ${FRUTAS[2]}
+    Log To Console    ${\n}
+    Log To Console    ${FRUTAS[3]}
+    Log To Console    ${\n}
+    Log To Console    ${FRUTAS[4]}
+    Log To Console    ${\n}
+   
