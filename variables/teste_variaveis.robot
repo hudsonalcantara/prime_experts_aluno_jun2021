@@ -3,7 +3,7 @@ Documentation    Meu teste de variáveis
 Library    Collections
 
 *** Variables ***
-${MENSAGEM}    Hello World!!
+${MENSAGEM}    Hello World!! Hello Console!! Hello Prime Experts!!!
 ${NUMERO}    ${10}
 ${BOOLEAN}    ${true}
 # ${BOOLEAN}    ${false}
@@ -22,7 +22,6 @@ Meu teste imprimindo uma lista de FRUTAS
 
 *** Keywords ***
 Logar no meu terminal uma mensagem
-    Set Test Variable     ${nova_fruta}    morango
     Log To Console    ${\n}
     Log To Console    ${MENSAGEM}    
 
@@ -33,8 +32,11 @@ Logar no meu terminal uma PESSOA
     Log To Console    ${PESSOA.nome} ${PESSOA.sobrenome} ${PESSOA.idade} anos!
 
 Logar no meu terminal uma LISTA DE FRUTAS
-    ${nova_fruta}     Set Variable    morango
+    ## Declaro localmente uma nova variável
+    ${outra_fruta}     Set Variable    abacaxi
+    ## Declaro uma nova variável em escopo do teste
+    Set Test Variable    ${nova_fruta}    morango
     Log To Console    ${\n}
-    Log To Console    ${FRUTAS} ${nova_fruta}
+    Log To Console    ${FRUTAS}
     Log Many          ${FRUTAS}
-    Log To Console    ${nova_fruta}
+    Log To Console    ${nova_fruta}-${outra_fruta}
