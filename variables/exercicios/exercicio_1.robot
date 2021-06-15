@@ -21,3 +21,4 @@ Logar no meu terminal minhas informações
     Log To Console    ${PESSOA.nascimento}
     Log To Console    ${\n}
     Log To Console    ${PESSOA.email}
+    Log To Console    ${\n}
