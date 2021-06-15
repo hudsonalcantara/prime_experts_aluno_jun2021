@@ -12,4 +12,12 @@ Meu teste de impressão no terminal com minhas informações
 *** Keywords ***
 Logar no meu terminal minhas informações
     Log To Console    ${\n}
-    Log To Console    ${PESSOA.nome} ${PESSOA.sobrenome} ${PESSOA.idade} ${PESSOA.nascimento} ${PESSOA.email}
+    Log To Console    ${PESSOA.nome}
+    Log To Console    ${\n}
+    Log To Console    ${PESSOA.sobrenome}
+    Log To Console    ${\n}
+    Log To Console    ${PESSOA.idade}
+    Log To Console    ${\n}
+    Log To Console    ${PESSOA.nascimento}
+    Log To Console    ${\n}
+    Log To Console    ${PESSOA.email}
