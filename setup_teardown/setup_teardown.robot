@@ -2,7 +2,9 @@
 Documentation    Testes para criar KWs que recebem argumentos e retornam um resultado
 
 Suite Setup    KW para executar no Setup da Suite
-Test Setup    
+Test Setup    KW para executar no Setup de cada Teste
+Suite Teardown    KW para executar no Teardown da Suite
+Test Teardown    KW para executar no Teardown de cada Teste
 
 *** Test Cases ***
 Teste de somar dois números
