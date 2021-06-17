@@ -69,6 +69,8 @@ Clicar em "Create an account"
 
 Preencher os dados obrigatórios
     Sleep    10s
+    Mouse Over    id=id_gender1
+    Click Element    id=id_gender1
     Input Text    id=customer_firstname    text=Hudson
     Input Text    id=customer_lastname    text=Alcântara
     Input Text    id=email    text=hudson0598@gmail.com
@@ -96,6 +98,15 @@ Submeter cadastro
 
 Conferir se o cadastro foi efetuado com sucesso
     Wait Until Element Is Visible    xpath=//span[contains(.,'My personal information')]
+
+Acessar página "${site}"
+    Go To    ${site}
+    Sleep    5s
+
+Pesquisar "${texto}" no campo de busca
+    Input Text    xpath=//input[contains(@autocapitalize,'none')]    text=${texto}
+    Click Element    xpath=(//yt-icon[@class='style-scope ytd-searchbox'])[2]
+
     
 
 
