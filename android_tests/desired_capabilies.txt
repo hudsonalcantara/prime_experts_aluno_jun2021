@@ -1,0 +1,8 @@
+{
+  "platformName": "Android",
+  "platformVersion": "9.0",
+  "deviceName": "prime_experts",
+  "appPackage": "com.google.android.youtube",
+  "appActivity": "com.google.android.apps.youtube.app.WatchWhileActivity",
+  "automationName": "UiAutomator2"
+}
