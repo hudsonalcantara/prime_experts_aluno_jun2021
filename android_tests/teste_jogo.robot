@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Desafio Final - App do YouTube (PrimeExperts)
+Documentation       Testando jogo de bandeira (Android)
 Library             AppiumLibrary
 Resource            ./desafio_final_variables.robot
 
