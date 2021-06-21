@@ -11,6 +11,7 @@ Abrir o jogo
 
 
 
+
 *** Keywords ***
 Abrir jogo
     Open Application                     ${REMOTE_URL}     platformName=${PLATFORM_NAME}       platformVersion=${PLATFORM_VERSION}
@@ -31,6 +32,7 @@ Navegar pelo menu
     Click Element                        id=com.gryffindorapps.world.flags.country.quiz:id/RelLayCountryFlags
 
 Jogar
+
     Wait Until Element Is Visible        id=com.gryffindorapps.world.flags.country.quiz:id/tvHints      
     Click Text                           SPAIN
     Wait Until Page Contains             FRANCE    5s

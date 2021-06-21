@@ -27,4 +27,7 @@ ${ACCOUNT_BTN}                 accessibility_id=Account
 ${EMAIL_BOX}                   class=android.widget.EditText
 ${EMAIL}                       uddy0993@gmail.com
 ${NEXT_BTN}                    class=android.widget.Button
-${YT_LOGO}                        accessibility_id=YouTube
+${YT_LOGO}                     accessibility_id=YouTube
+${CHECK_BTN}                   id=com.lingodeer:id/check_button
+${NEXT_BTN}                    id=com.lingodeer:id/next_btn
+${AUDIO_BTN}                   id=com.lingodeer:id/iv_audio
